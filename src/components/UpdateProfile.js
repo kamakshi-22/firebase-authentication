@@ -51,7 +51,7 @@ export default function UpdateProfile() {
                         <Form.Group id="email">
                             <Form.Label>Email</Form.Label>
                             <Form.Control
-                                type="email"
+                                typecommit="email"
                                 ref={emailRef}
                                 required
                                 defaultValue = {currentUser?.email}
